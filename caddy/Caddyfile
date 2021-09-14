@@ -1,0 +1,7 @@
+{$DOMAIN} {
+    root * /var/www/html
+    php_fastcgi wordpress:9000
+    file_server
+    encode gzip zstd
+    tls /etc/caddy/certs/_wildcard.local.mydomain.com.pem /etc/caddy/certs/_wildcard.local.mydomain.com-key.pem
+}
