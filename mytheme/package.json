@@ -4,7 +4,7 @@
     "bulma": "0.9.3",
     "clean-webpack-plugin": "4.0.0",
     "css-loader": "6.5.1",
-    "eslint": "8.6.0",
+    "eslint": "8.7.0",
     "eslint-config-standard": "16.0.3",
     "eslint-plugin-import": "2.25.4",
     "eslint-plugin-node": "11.1.0",
